@@ -1,0 +1,124 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: arial, sans-serif;
+}
+
+
+#gplus_icon {
+    width: 32px;
+    height: 32px;
+    opacity: 0.9;
+}
+
+#bell_icon, #sandwich_menu {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    opacity: 0.9;
+}
+
+#gplus_icon:hover, #bell_icon:hover, #sandwich_menu:hover {
+    opacity: 1.5;
+}
+
+
+#topbar {
+	padding-bottom: 0.5em;
+}
+
+#topbar ul {
+	 min-width: 255px;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 12px 25px 0 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+#topbar li {
+    float: right;
+    line-height: 2.2em;
+    padding: 7px;
+}
+
+#topbar a {
+    text-decoration: none;
+    color: #000;
+}
+
+#topbar a:hover {
+    color: rgb(61, 61, 61);
+    text-decoration: underline;
+}
+
+#topbarleft li {
+	float: left;
+	line-height 2.2em;
+	padding: 7px;
+}
+
+#topbarleft a {
+	text-decoration: none;
+	color: #000;
+}
+
+#topbarleft a:hover {
+	color: rgb(61, 61, 61);
+	text-decoration: underline;
+}
+
+
+#logoBar {
+    padding-top: 0.5em;
+}
+
+#googleLogo {
+    position: fixed;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+#searchBar {
+    position: fixed;
+    top: 34%;
+    left: calc(65% - 585px);
+    height: 45px;
+    line-height: 35px;
+    width: 550px;
+    border-radius: 25px;
+    border: 1px solid lightgrey;
+    background-color: transparent;
+    padding-right: 20px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.buttonsWrapper {
+    position: fixed;
+    top: 42.5%;
+    left: 44%;
+}
+
+.buttons {
+    color: gray;
+    border: 0;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons:hover {
+    background: #f2f2f2;
+    color:#18161B;
+	cursor: default;
+	border:1px solid rgba(128,128,128,0.4);
+	margin: -1px;
+	border-radius: 3px;
+}
